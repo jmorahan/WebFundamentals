@@ -40,7 +40,7 @@ Before we start:
 
 HTTP requests may include the optional [`Referer`
 header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referer), which indicates the
-**origin or web page URL** the request was made from. The [`Referer-Policy`
+**origin or web page URL** the request was made from. The [`Referrer-Policy`
 header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy) defines what data
 is made available in the `Referer` header, and for navigation and iframes in the destination's
 `document.referrer`.
